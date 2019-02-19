@@ -1,0 +1,401 @@
+@media screen and (max-width: 768px) {
+    .col-4 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .block-expertise-item:nth-child(1), .block-expertise-item:nth-child(2), .block-expertise-item:nth-child(4), .block-expertise-item:nth-child(5) {
+        border-right: #ebebeb 1px solid;
+    }
+
+    .block-expertise-item:nth-child(4), .block-expertise-item:nth-child(5), .block-expertise-item:nth-child(6) {
+        border-top: silver 1px solid;
+        padding-top: 40px;
+    }
+}
+
+@font-face {
+    font-family: 'Roboto-Regular' ;
+    src: url('../font/Roboto-Regular.ttf') format("truetype") ;
+}
+
+@font-face {
+    font-family: 'Roboto-Black' ;
+    src: url('../font/Roboto-Black.ttf') format("truetype") ;
+}
+
+@font-face {
+    font-family: 'Roboto-Light' ;
+    src: url('../font/Roboto-Light.ttf') format("truetype") ;
+}
+
+@font-face {
+    font-family: 'Roboto-Thin' ;
+    src: url('../font/Roboto-Thin.ttf') format("truetype") ;
+}
+
+@font-face {
+    font-family: 'Hammersmith' ;
+    src: url('../font/HammersmithOne-Regular.ttf') format("truetype") ;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Regular' ;
+    src: url('../font/PlayfairDisplay-Regular.ttf') format("truetype") ;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Black' ;
+    src: url('../font/PlayfairDisplay-Black.ttf') format("truetype") ;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Bold' ;
+    src: url('../font/PlayfairDisplay-Bold.ttf') format("truetype") ;
+}
+
+h1 {
+    font-family: 'PlayfairDisplay-Bold', fantasy;
+}
+
+header {
+    background: url("../img/header/wood_fon.png") no-repeat center;
+    background-size: cover;
+}
+
+.brandname {
+    font-family: 'Roboto-Thin', sans-serif;
+    font-size: 30px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #00e0d0, #4aa3cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#navbarNav a {
+    font-family: 'Roboto-Black', sans-serif;
+    color: white;
+    font-size: 13px;
+    padding: 0 12px;
+}
+
+#navbarNav a:hover {
+    color: #00e0d0;
+}
+
+.main-title:after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #00e0d0;
+    margin: 25px auto;
+}
+
+.main-block {
+    color: white;
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    margin-top: 160px;
+}
+
+.main-block button {
+    margin-top: 40px;
+    margin-bottom: 180px;
+}
+
+.btn-learn {
+    color: #00e0d0;
+    border: 1px #00e0d0 solid;
+    background: transparent;
+    font-size: 16px;
+    padding: 13px;
+    font-family: 'HammersmithOne-Regular', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.section-our .container .row .col-8 button:hover {
+    color: black;
+    border: black 1px solid;
+}
+
+.section-our {
+    background: white;
+    padding: 70px;
+}
+
+/*Нижче класи для заголовків h2 з чорним та білим текстом.
+Вони є всюди однаковими*/
+
+.title-black {
+    font-size: 22px;
+    font-family: 'PlayfairDisplay-Bold', serif;
+    text-transform: uppercase;
+}
+
+.title-white {
+    font-size: 22px;
+    font-family: 'PlayfairDisplay-Bold', serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.story-text {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.out-video {
+    background: url("../img/content/city_fon.png") no-repeat center;
+    background-size: cover;
+    height: 550px;
+}
+
+.play-button {
+    padding-top: 201px;
+    position: relative;
+}
+
+.text-video {
+    margin-top: 5px;
+    color: white;
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 16px;
+}
+
+.block-meet-our-team {
+    background: url("../img/content/wood_mountain_fon.png") center no-repeat;
+    background-size: cover;
+}
+
+.team-title {
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+.team-title-lorem {
+    font-family: 'PlayfairDisplay-Regular', serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.team-title-separator {
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    opacity: 0.2;
+}
+
+.team-item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.teammate-img {
+    height: 220px;
+    background: #f4f4f6;
+}
+
+.teammate-desc {
+    height: 80px;
+    border: 1px solid #79768c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teammate-name {
+    font-family: 'Roboto-Black', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #f4f3f5;
+    line-height: 1.2;
+}
+
+.teammate-post {
+    font-family: 'Roboto-Light', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(250, 250, 250, 0.702);
+    line-height: 1.2;
+}
+
+.team-bottom {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    color: #f3f3f3;
+}
+
+.become-part {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.btn-hiring {
+    color: #00e0d0;
+    border: 1px #00e0d0 solid;
+    background: transparent;
+    font-size: 16px;
+    padding: 13px;
+    font-family: 'HammersmithOne-Regular', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.layer-button-1 {
+    z-index: 1;
+}
+
+.layer-button-2 {
+    z-index: 2;
+    margin-top: -128px;
+    margin-left: 7px;
+}
+
+.exp-heading {
+    padding-top: 70px;
+}
+
+.text-in-heading {
+    font-family: 'PlayfairDisplay-Regular', serif;
+    margin-bottom: 60px;
+}
+
+.text-in-heading:after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+}
+
+.item-heading {
+    margin-top: 35px;
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 14px;
+}
+
+.block-expertise-item:nth-child(1), .block-expertise-item:nth-child(2), .block-expertise-item:nth-child(3) {
+    padding-bottom: 20px;
+}
+
+.block-expertise {
+    padding-bottom: 60px;
+}
+
+.item-text {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+}
+
+.btn-submit {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.section-contact-form {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section-contact-form form {
+    margin-top: 30px;
+}
+
+.logo-items {
+    margin-left: 20px;
+}
+
+.logo-item {
+    width: 40%;
+    height: 40px;
+    margin: 20px;
+    float: left;
+}
+
+.logo-levis {
+    height: 50px;
+    width: 110px;
+    margin-top: 30px;
+}
+
+.clients-title {
+    margin-left: 60px;
+}
+
+.section-contact-form textarea {
+    min-height: 200px;
+}
+
+.register_forms.error {
+    border-color: #FA8072;
+}
+
+label.error {
+    color: #FA8072;
+    font-size: 14px;
+}
+
+.block-pagination {
+    background: url("../img/content/wood_mountain_fon.png") no-repeat center;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.pagination_area:before {
+    content: "“";
+    display: block;
+    font-size: 100px;
+    color: white;
+    font-family: 'PlayfairDisplay-Regular', serif;
+    height: 70px;
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.person-name {
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-top: 45px;
+}
+
+.person-info {
+    color: white;
+    font-family: 'PlayfairDisplay-Regular', serif;
+    font-size: 16px;
+    padding-right: 90px;
+    padding-left: 80px;
+    word-spacing: 7px;
+}
+
+.person-position {
+    font-size: 13px;
+    color: white;
+    font-family: 'Roboto-Light', sans-serif;
+    margin-top: -15px;
+}
+
+.slick-dots li button::before {
+        font-size: 14px;
+        color: white;
+}
+
+.block-pagination {
+    padding-bottom: 100px;
+}
+
+
